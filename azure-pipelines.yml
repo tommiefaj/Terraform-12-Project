@@ -1,0 +1,20 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+  - master
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+  - task: Prisma Cloud IaC Scan@2
+    inputs:
+      Path: '.'  # The .prismaCloud/config.yml sets the subdirectory
+      prismaCloudService: 'Terraform-12-Project'
+      High: '0'
+      Medium: '0'
+      Low: '0'
+      Operator: 'or'
