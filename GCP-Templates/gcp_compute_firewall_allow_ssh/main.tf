@@ -33,6 +33,9 @@ resource "google_compute_instance" "default" {
    }
  }
 }
+ 
+ 
+ 
 
 resource "google_compute_disk" "default" {
   name = "test-disk"
