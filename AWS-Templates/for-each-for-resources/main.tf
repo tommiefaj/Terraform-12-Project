@@ -51,3 +51,6 @@ resource "aws_instance" "ubuntu" {
 output "public_ips" {
   value = [for r in aws_instance.ubuntu: r.public_ip]
 }
+
+  
+  
