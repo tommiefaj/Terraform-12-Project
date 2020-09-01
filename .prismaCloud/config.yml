@@ -2,6 +2,34 @@ template_type: TF
 terraform_version: 0.12
 terraform_012_parameters:
   - root_module: AWS-Templates/terraform12novariablemodule
+  - root_module: AWS-Templates/dynamic-blocks-and-splat-expressions
+  - root_module: AWS-Templates/first-class-expressions
+  - root_module: AWS-Templates/for-each-for-resources
+  - root_module: AWS-Templates/for-expressions
+  - root_module: Azure-Templates/azure_app_service
+  - root_module: Azure-Templates/azure_app_service_certificate
+  - root_module: Azure-Templates/azure_application_gateway
+  - root_module: Azure-Templates/azure_arm_template
+  - root_module: Azure-Templates/azure_dynamic_for_each
+  - root_module: Azure-Templates/azure_mysql
+  - root_module: Azure-Templates/azure_myvariable_files
+  - root_module: Azure-Templates/azure_role
+  - root_module: Azure-Templates/azure_variable_files
+  - root_module: Azure-Templates/azure_variable_files_2
+  - root_module: Azure-Templates/azure_variable_files_3
+  - root_module: Azure-Templates/azure_variable_files_default
+  - root_module: Azure-Templates/azure_variable_files_header_specify_variablevalues
+  - root_module: Azure-Templates/azure_variable_values
+  - root_module: Azure-Templates/azure_variable_values_default
+  - root_module: Azure-Templates/matchazure
+  - root_module: GCP-Templates/gcp_compute_firewall
+  - root_module: GCP-Templates/gcp_compute_firewall_allow_all_tcp
+  - root_module: GCP-Templates/gcp_compute_firewall_allow_ssh
+  - root_module: GCP-Templates/gcp_compute_output
+  - root_module: GCP-Templates/gcp_compute_random
+  - root_module: GCP-Templates/gcp_variable
+  - root_module: GCP-Templates/gcp_variable_files
+  - root_module: GCP-Templates/matchgcp
 
 
 
